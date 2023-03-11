@@ -24,7 +24,7 @@ print("--上传头像开始--")
 page.goto('http://testingedu.com.cn:8000/Home/User/info.html')
 page.click('//img[@id="preview"]')  # 点击头像就会出现让上传的iframe 弹窗
 
-# playwright 先定位到（***）iframe(***)元素，再操作其他元素（上传按钮）和（保存按钮）
+# playwright 先定位到（***）iframe(***)元素，紧接着再操作其他元素（上传按钮）和（保存按钮）
 # 区别于selenium，要先进入iframe再退出 ，playwright不需要退出
 page.frame_locator('//*[@id="layui-layer-iframe1"]').\
     locator('//*[@id="filePicker"]/div[2]/input').\
