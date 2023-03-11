@@ -1,6 +1,6 @@
 from playwright.sync_api import sync_playwright
 import re
-
+# 一些playwright的常见操作
 playwright = sync_playwright().start()
 browser = playwright.chromium.launch(headless=False,slow_mo=1000)
 # playwrigth context 方便多页面管理 上下文
