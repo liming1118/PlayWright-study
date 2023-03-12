@@ -8,6 +8,10 @@ context = browser.new_context()
 page = context.new_page()
 page.goto('http://testingedu.com.cn:8000/index.php/Home/user/login.html')
 
+
+# new_page 通过 context 变量调用的，这个 context 又是由 browser 通过调用 new_context 方法生成的
+# context变量对应的是一个BrowserContext对象，BrowserContext是一个类似隐身模式的独立上下文环境，其运行资源是单独隔离的，
+# 在做一些自动化测试过程中，每个测试用例我们都可以单独创建一个BrowserContext对象，这样可以保证每个测试用例之间互不干扰
 """
 登录
 """
@@ -62,6 +66,7 @@ print("--搜索商品，加入购物车，提交订单 开始--")
 # 输入框搜索“手机” 的商品
 page.fill('//*[@id="q"]','手机')
 page.click('//*[@id="sourch_form"]/a')
+# 获取所有节点可以使用 query_selector_all 方法，它可以返回节点列表，通过遍历获取到单个节点之后，我们可以接着调用单个节点的方法来进行一些操作和属性获取
 # 打印所有“手机”的商品名称
 # goods = page.query_selector_all('//div[@class="shop-list-splb p"]//div[@class="shop_name2"]/a')
 # for good in goods:
