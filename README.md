@@ -65,7 +65,7 @@ CMD命令行： playwright codegen
 ```bash
 如：  playwright codegen -o script.py -b firefox
 就弹出了一个 Firefox 浏览器，同时右侧会输出一个脚本窗口，实时显示当前操作对应的代码。
-我们可以在浏览器中做任何操作，操作完毕之后，关闭浏览器，Playwright 会生成一个 script.py 文件 ,这个文件可以之间运行。
+我们可以在浏览器中做任何操作，操作完毕之后，关闭浏览器，Playwright 会生成一个 script.py 文件 ,这个文件可以直接运行。
 
 # 查看帮助
 python -m playwright codegen --help
