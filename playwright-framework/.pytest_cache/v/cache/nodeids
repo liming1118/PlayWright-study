@@ -1,0 +1,14 @@
+[
+  "testcase/baidu/baidu_search2_test.py::BaiduSearchTest::test_baidu_search[chromium]",
+  "testcase/baidu/baidu_search_test.py::BaiduSearchTest::test_baidu_search[chromium]",
+  "testcase/baidu/baidu_search_test.py::BaiduSearchTest::test_baidu_search_setting[chromium]",
+  "testcase/baidu/baidu_search_test.py::BaiduSearchTest::test_baidu_search_with_network[chromium]",
+  "testcase/baidu/baidu_search_with_multi-browser_test.py::BaiduSearchTest::test_baidu_search_with_multi_browser[chromium]",
+  "testcase/baidu/baidu_search_with_multi-browser_test.py::BaiduSearchTest::test_baidu_search_with_multi_tab[chromium]",
+  "testcase/shopxo/admin_login_test.py::AdminLoginTest::test_admin_add_consign[chromium]",
+  "testcase/shopxo/admin_login_test.py::AdminLoginTest::test_admin_click_menu[chromium]",
+  "testcase/shopxo/admin_login_test.py::AdminLoginTest::test_admin_login[chromium]",
+  "testcase/shopxo/admin_login_test.py::AdminLoginTest::test_admin_opennewTab[chromium]",
+  "testcase/shopxo/admin_login_test.py::AdminLoginTest::test_admin_searchGoods_addBuy[chromium]",
+  "testcase/shopxo/admin_login_test.py::AdminLoginTest::test_admin_upload[chromium]"
+]
