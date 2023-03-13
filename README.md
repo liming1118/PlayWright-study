@@ -1,5 +1,6 @@
 # PlayWright-study
-基于python的前端自动化框架实践
+基于python的前端自动化框架实践  
+获取本项目：git clone https://github.com/liming1118/PlayWright-study.git
 
 ## 1、 playwright vs  selenium ?
 
