@@ -1,7 +1,7 @@
 import re
 
 import pytest
-from playwright.async_api import Page, Browser
+from playwright.async_api import Page
 
 
 class AdminLoginTest:
